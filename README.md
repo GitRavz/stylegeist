@@ -19,14 +19,16 @@
 ```
 stylegeist/
 ├── README.md            ← you are here (the index)
+├── _TEMPLATE.md         ← copy this to start a new system spec
+├── LICENSE              ← MIT
 ├── ink-and-paper/
 │   └── README.md        ← full portable design spec
 └── <future-system>/
     └── README.md
 ```
 
-**To add a new design system:** create a folder, drop a `README.md` spec inside it, then
-add a row to the table above.
+**To add a new design system:** copy [`_TEMPLATE.md`](_TEMPLATE.md) to `<system-name>/README.md`,
+fill in the placeholders, then add a row to the table above.
 
 ## 🚀 How to use a spec
 
@@ -38,4 +40,4 @@ Each spec is self-contained. Open the folder's `README.md` and:
 
 ---
 
-<p align="center"><sub>Built and maintained by <a href="https://github.com/GitRavz">@GitRavz</a>.</sub></p>
+<p align="center"><sub>Built and maintained by <a href="https://github.com/GitRavz">@GitRavz</a> · <a href="LICENSE">MIT</a></sub></p>
